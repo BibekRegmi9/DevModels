@@ -1,0 +1,117 @@
+
+
+body{
+    background-image: url("./bg.webp");
+    margin: 0;
+    height: 110vh;
+}
+
+header {
+    
+    padding: 20px;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    position: sticky;
+    top: 0;
+}
+
+.logoBox{
+    
+    display: inline-block;
+    width: 150px;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.navbox{
+    
+    width: 600px;
+    
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+
+.navbox >a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbox >a:hover{
+    color: salmon;
+}
+
+#homie{
+    color: salmon;
+}
+
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-weight: 70;
+    
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+
+.heading+h3{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    
+    font-size: 40px;
+    position: relative;
+    
+    left: 70px;
+    width: 500px;
+}
+
+.heading+h3+p{
+    color: rgb(218, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    position: relative;
+    text-decoration: dotted;
+    font-style: italic;
+
+    left: 70px;
+    width: 500px;
+    word-spacing: 6px;
+    top: 20px;
+    left: 80px;
+}
+
+.btn{
+    width: 150px;
+    padding: 15px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Slab', serif;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+footer{
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    position: fixed;
+    bottom: 0;
+    
+}
